@@ -1,0 +1,8 @@
+#review-item{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-style: groove;
+    border-radius: .7rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}

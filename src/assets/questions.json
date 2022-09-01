@@ -1,0 +1,7 @@
+{
+    "questions":[
+        {"qid":1,"question":"What does MEAN stand for","answer_one":"MODE ENERGY AWESOME NEWS","answer_two":"MONGODB EXPRESSJS ANGULARJS NODEJS","answer_three":"MEGADB EXPRESSWAY ANGLES NODES","answer_four":"metadata exctintion android Nuclear "},
+        {"qid":2,"question":"what is ng","answer_one":"next going","answer_two":"not going","answer_three":"next generation","answer_four":"no generation"},
+        {"qid":3,"question":"What does MERN stand for ","answer_one":"MONGODB EXPRESSJS REACT NODEJS","answer_two":"MACRO EMAIL RDMS NODEJS","answer_three":"MAC-ADDRESS ENTERPRISE ROUTER NETBIOS","answer_four":"MAGIC ENERGY RECOVERY NODES"}
+    ]
+}

@@ -1,0 +1,19 @@
+<div class="main-window">
+
+    <div class="text-center" *ngIf="view">
+        <h2 >Here Are Your Results</h2> <br>
+        <label for="Marks">Your score is {{count}} out of {{answers.length}}</label> <br>
+        <label for="percentage">{{percentage}} %</label>
+    </div>
+
+
+    <div class="text-center">
+        <button (click)="gradeQuiz()" class="btn btn-primary ">View Results</button>  &nbsp;&nbsp;
+        <button (click)="backToQuiz()" class="btn btn-primary ">Retry Quiz</button> 
+    </div>
+    
+
+    
+
+   
+</div>

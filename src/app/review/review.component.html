@@ -1,0 +1,23 @@
+<div class="review-box">
+    <h2 class="text-center">Review Your Answers Below And Press Grade Quiz If You Are Happy With Your Answers</h2>
+    <div   *ngFor="let ans of quizAns.values(); let i = index;">
+
+        <div class="mb-3" id="review-item">
+            <p>{{questions[i].question}}</p>
+            <label for="exampleFormControlInput1" class="form-label">{{ans}} </label>
+            
+          </div>
+    </div>
+
+    <div class="text-center">
+  <button (click)="goToResultsPage()" class="btn btn-primary btn-lg">Grade Quiz</button>&nbsp;
+  <button (click)="goBackToQuiz()"  class="btn btn-danger btn-lg">Back To Quiz</button>
+  
+  
+    </div>
+
+</div>
+
+
+
+

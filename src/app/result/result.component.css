@@ -1,0 +1,9 @@
+.main-window{
+    margin-top: 10rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+label{
+    margin-bottom: 2rem;
+}

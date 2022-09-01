@@ -1,0 +1,15 @@
+<div *ngFor="let q of questions" class="question-box">
+    <div class="mb-3" id="question">
+        <label for="exampleFormControlInput1" class="form-label">{{q.qid}} . {{q.question}}</label>
+        
+      </div>
+      <div class="mb-3" id="radio">
+        <input type="radio" name="{{q.qid}}" (click)="getOption(q.qid,q.answer_one)" value="{{q.answer_one}}">{{q.answer_one}} <br>
+        <input type="radio" name="{{q.qid}}" (click)="getOption(q.qid,q.answer_two)" value="{{q.answer_two}}">{{q.answer_two}} <br>
+        <input type="radio" name="{{q.qid}}" (click)="getOption(q.qid,q.answer_three)" value="{{q.answer_three}}">{{q.answer_three}} <br>
+        <input type="radio" name="{{q.qid}}" (click)="getOption(q.qid,q.answer_four)" value="{{q.answer_three}}">{{q.answer_one}} <br>
+      </div>
+</div>
+<div class="text-center">
+    <button (click)="submitAnswers()" class="btn btn-primary btn-lg">Submit</button>
+</div>
